@@ -17,7 +17,7 @@ cd $PROJECT_NAME
 pnpm install
 
 # Install Tailwind CSS and its peer dependencies
-pnpm install -D tailwindcss postcss autoprefixer
+pnpm install -D tailwindcss@3 postcss autoprefixer
 
 # Initialize Tailwind CSS
 npx tailwindcss init -p
